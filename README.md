@@ -11,9 +11,9 @@ using Ensemble::DiskAudio;
 ```
 
 ```c++
-auto* d = new DiskAudio;
+auto pDiskAudio = new DiskAudio;
 
-d->Eject();
+pDiskAudio->Eject();
 ```
 
 ## References
